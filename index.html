@@ -8,10 +8,7 @@
 
 <!-- Required MDC Web JavaScript library -->
 <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-<!-- Instantiate single textfield component rendered in the document -->
-<script>
-  mdc.textField.MDCTextField.attachTo(document.querySelector('.mdc-text-field'));
-</script>
+
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Enter your site ID.</title>
 <style type="text/css">
@@ -42,6 +39,10 @@ a img {
   <label class="mdc-floating-label" for="doc-id">Enter document identify</label>
   <div class="mdc-line-ripple"></div>
 </div>
+	<!-- Instantiate single textfield component rendered in the document -->
+<script>
+  mdc.textField.MDCTextField.attachTo(document.querySelector('.mdc-text-field'));
+</script>
 <div id="container">
 <a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
 </div>
