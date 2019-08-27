@@ -4,12 +4,7 @@
 	<!-- Required styles for MDC Web -->
 <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
 
-<!-- Render textfield component -->
-<div class="mdc-text-field">
-  <input type="text" id="my-text-field" class="mdc-text-field__input">
-  <label class="mdc-floating-label" for="my-text-field">Label</label>
-  <div class="mdc-line-ripple"></div>
-</div>
+
 
 <!-- Required MDC Web JavaScript library -->
 <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
@@ -18,7 +13,7 @@
   mdc.textField.MDCTextField.attachTo(document.querySelector('.mdc-text-field'));
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>IIS Windows</title>
+<title>Enter your site ID.</title>
 <style type="text/css">
 <!--
 body {
@@ -41,6 +36,12 @@ a img {
 </style>
 </head>
 <body>
+<!-- Render textfield component -->
+<div class="mdc-text-field">
+  <input type="text" id="doc-id" class="mdc-text-field__input">
+  <label class="mdc-floating-label" for="doc-id">Enter document identify</label>
+  <div class="mdc-line-ripple"></div>
+</div>
 <div id="container">
 <a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iisstart.png" alt="IIS" width="960" height="600" /></a>
 </div>
