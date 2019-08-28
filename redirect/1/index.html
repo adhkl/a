@@ -14,6 +14,16 @@ body{margin:0;font-size:.7em;font-family: 'Product Sans';background:#EEEEEE;}
   <title>Agenda</title>
 </head>
 <body>
+  
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0&appId=2288451184818825&autoLogAppEvents=1"></script>
   <header>
@@ -27,6 +37,11 @@ body{margin:0;font-size:.7em;font-family: 'Product Sans';background:#EEEEEE;}
   This site is using resources from Microsoft, Google & another sources.</p>
 <p>Developer: <a href="https://www.facebook.com/hoang.cykablyat">Hoang Nguyen</a>,</br>email: <a href="mailto:richviethoang@gmail.com">richviethoang@gmail.com</a></p>
 <div class="fb-page" data-href="https://www.facebook.com/hoang.cykablyat" data-tabs="" data-width="360" data-height="180" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+  <!-- Your send button code -->
+  <div class="fb-send" 
+    data-href="https://m.me/hoang.cykablyat" 
+    data-layout="button_count">
+  </div>
 </footer>
   </body>
 </html>
